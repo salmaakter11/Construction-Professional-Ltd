@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-
+    <link href="assets/css/select2.min.css" rel="stylesheet" />
 
 
 </head>
@@ -139,266 +139,211 @@
         </div>
 
 
-        <!--Page Header Start-->
+
+        <style>
+            .hero-section {
+                padding: 100px 0;
+                text-align: center;
+                color: aliceblue;
+            }
+
+            .bg-Breadcrumb {
+                background-color: black;
+                color: aliceblue;
+                padding: 10px 0;
+            }
+
+            .section-title {
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+
+            .content-section {
+                padding: 60px 0;
+            }
+
+            .card-img-top {
+                height: 220px;
+                object-fit: cover;
+            }
+
+            .Development-title {
+                font-size: 36px;
+                color: black;
+            }
+
+            .content-section {
+                background-color: #e3e3e3;
+                padding: 50px 20px;
+            }
+
+
+            .card-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 30px;
+            }
+
+            .construct-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .construct {
+                flex: 1 1 45%;
+                max-width: 580px;
+            }
+
+            @media (max-width: 768px) {
+                .construct {
+                    flex: 1 1 100%;
+                }
+            }
+        </style>
+
+        <!-- Breadcrumb -->
+        <div class="bg-Breadcrumb ">
+            <div class="container-sm">
+                <small>Home <i class="fas fa-angle-right"></i> What We Do <i class="fas fa-angle-right"></i>
+                    Infrastructure Development</small>
+            </div>
+
+        </div>
+
+
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: url(assets/images/project/details.jfif);">
+            <div class="page-header__bg" style="background-image: url(assets/images/project/aftre.jpg);">
             </div>
-            <div class="container">
-                <div class="page-header__inner">
-                    <div class="page-header__title-box">
-                        <h3> Construction</h3>
-                    </div>
-                    <div class="thm-breadcrumb__box">
-                        <ul class="thm-breadcrumb list-unstyled">
-                            <li><a href="index.html">Home</a></li>
-                            <li><span>/</span></li>
-                            <li> Construction</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="container hero-section">
+                <div class="section-title text-white">Shaping the Future of Infrastructure</div>
+                <h1 class="display-5 fw-bold text-white">Infrastructure Development</h1>
+                <p class="lead mt-3 text-white">We are at the forefront of infrastructure development, delivering
+                    transformative
+                    projects that drive progress and connectivity across Bangladesh...</p>
             </div>
         </section>
-        <!--Page Header End-->
+        
+        <!-- Content Section -->
+        <div class="content-section " style="background-color: #f3f3f3;">
 
-        <section class="services-three section-space">
-            <div class="container">
-                <div class="row mb-80 p-5 justify-content-center">
-                    <div class="col-sm-6 col-lg-3 col-md-4 mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <img src="assets/images/project/projects-1-1.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
+            <div class="container py-5">
+                <div class=" justify-content-center">
+
+                    <div class="construct-wrapper">
+                        <div class=" construct">
+                            <!-- Roads & Highways -->
+                            <div class=" mb-4 g-4">
+                                <div class="card h-100 m-3">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/project/blog-2-2.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-bodyh-100 p-5">
+                                        <h5 class="fw-bold Development-title ">Roads & Highways</h5>
+                                        <p class="mt-3">We construct modern roads and highways that form the backbone of
+                                            national
+                                            transportation, enhancing mobility and boosting economic development.</p>
+                                        <ul class="list-unstyled mt-3 mb-5">
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Urban Roads</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Rural Roads</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Expressways</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Paved & Unpaved Roads</li>
+                                        </ul>
+                                        <a href="infr-development-details.html"
+                                            class="btn btn-primary btn-sm mt-2">Learn
+                                            More</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
+
+                            <!-- Bridges & Flyovers -->
+                            <div class=" mb-4  g-5">
+                                <div class="card h-100 m-3">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/project/blog-1.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body p-5">
+                                        <h5 class="fw-bold Development-title">Bridges & Flyovers</h5>
+                                        <p>Our expertise in building bridges and flyovers provides essential links
+                                            across
+                                            rivers and urban landscapes. We focus on engineering solutions that ensure
+                                            safety, durability, and aesthetic appeal, making travel seamless and
+                                            efficient.
+                                        </p>
+                                        <ul class="list-unstyled mt-3 mb-5">
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Suspension Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Arch Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Beam Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Flyovers</li>
+                                        </ul>
+                                        <a href="infr-development-details.html"
+                                            class="btn btn-primary btn-sm mt-2">Learn
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class=" construct mt-5" style="padding-top: 90px;">
+                            <!-- Roads & Highways -->
+                            <div class=" mb-4 g-4">
+                                <div class="card m-3">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/project/blog-2-2.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body p-5">
+                                        <h5 class="fw-bold Development-title">Roads & Highways</h5>
+                                        <p>We construct modern roads and highways that form the backbone of national
+                                            transportation, enhancing mobility and boosting economic development.</p>
+                                        <ul class="list-unstyled mt-3 mb-5">
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Urban Roads</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Rural Roads</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Expressways</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Paved & Unpaved Roads</li>
+                                        </ul>
+                                        <a href="infr-development-details.html"
+                                            class="btn btn-primary btn-sm mt-2">Learn
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Bridges & Flyovers -->
+                            <div class=" mb-4  g-5">
+                                <div class="card m-3">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/project/blog-1.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body p-5">
+                                        <h5 class="fw-bold Development-title">Bridges & Flyovers</h5>
+                                        <p>Our expertise in building bridges and flyovers provides essential links
+                                            across
+                                            rivers and urban landscapes. We focus on engineering solutions that ensure
+                                            safety, durability, and aesthetic appeal, making travel seamless and
+                                            efficient.
+                                        </p>
+                                        <ul class="list-unstyled mt-3 mb-5">
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Suspension Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Arch Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Beam Bridges</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i> Flyovers</li>
+                                        </ul>
+                                        <a href="infr-development-details.html"
+                                            class="btn btn-primary btn-sm mt-2">Learn
+                                            More</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4  mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <div class="ribbon-box"><span class="ribbon-text">Sold Out</span></div>
-                                <img src="assets/images/project/projects-1-2.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4 mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <img src="assets/images/project/projects-1-3.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4 mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <div class="ribbon-box"><span class="ribbon-text">Sold Out</span></div>
-                                <img src="assets/images/project/projects-1-4.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4  mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <div class="ribbon-box"><span class="ribbon-text">Sold Out</span></div>
-                                <img src="assets/images/project/projects-1-2.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4 mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <img src="assets/images/project/projects-1-3.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 col-md-4 mb-30">
-                        <div class="single-property ">
-                            <div class="top-content">
-                                <div class="ribbon-box"><span class="ribbon-text">Sold Out</span></div>
-                                <img src="assets/images/project/projects-1-4.jpg" alt="Islam Assure Center"
-                                    class="img-fluid">
-                                <div class="property-details">
-                                    <p>Islam Assure Center</p>
-                                    <ul>
-                                        <li>Nature: Commercial</li>
-                                        <li>Land Category: Rajuk allotted commercial land</li>
-                                        <li>Address: 91 Mohakhali C/A, Dhaka.</li>
-                                        <li>Floor Area: 1897sft (G), 4119sft (1st), 4889sft (2nd), 4244sft (Typical)
-                                        </li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                        <li>Land Area: 9.11 Katha</li>
-                                        <li>Building Height: 3B + G + 20 Storied</li>
-                                        <li>Number of Elevator/Lift: 03 Nos.</li>
-                                        <li>Parking Area: Basement 1, 2 &amp; 3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bottom-content">
-                                <h3 class="single-heading"><a href="project-details.html">
-                                        Islam <br> Assure Center</a></h3>
-                                <p><i class="fas fa-location-circle"></i> Mohakhali, Dhaka</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-            <div class="paginations">
-                <ul class="agri-ul d-flex flex-wrap justify-content-center">
-                    <li><a href="#" aria-label="Page 1"><i class="fa fa-arrow-alt-left"></i></a></li>
-                    <li><a href="#" class="active" aria-label="Page 1">1</a></li>
-                    <li class="d-none d-sm-block"><a href="#" aria-label="Page 2">2</a></li>
-                    <li class="d-none d-sm-block"><a href="#" aria-label="Page 3">3</a></li>
-                    <li><span class="dot" aria-hidden="true">...</span></li>
-                    <li class="d-none d-sm-block"><a href="#" aria-label="Page 9">9</a></li>
-                    <li><a href="#" aria-label="Page 1"><i class="fa fa-arrow-alt-right"></i></a></li>
-                </ul>
-            </div>
 
-        </section>
+        </div>
+
 
         <!--Site Footer Start-->
         <footer class="site-footer">
@@ -569,11 +514,11 @@
     <script src="assets/js/gsap/ScrollTrigger.js"></script>
     <script src="assets/js/gsap/SplitText.js"></script>
     <!--  js -->
-
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/select.js"></script>
     <script src="assets/js/script.js"></script>
-
     <script src="assets/js/light-dark.js"></script>
-    
+
 </body>
 
 

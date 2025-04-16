@@ -55,11 +55,11 @@
       animateOut: "fadeOut",
       animateIn: "fadeIn",
       margin: 0,
-      nav: true,
+      nav: false,
       dots: true,
       smartSpeed: 500,
       autoplay: true,
-      autoplayTimeout: 7000,
+      autoplayTimeout: 6000,
       navText: [
         '<span class="icon-left-arrow"></span>',
         '<span class="icon-right-arrow"></span>',
@@ -304,7 +304,30 @@
     });
   }
 
+//   $(document).ready(function () {
+//     $('.owl-carousel').owlCarousel({
+//         center: true,
+//         loop: true,
+//         loop: true,
+//         margin: 10,
+//         nav: true,
+//         dots: false,
+//         smartSpeed: 500,
+//         autoplay: false,
+//         autoplayTimeout: 4000,
+//         navText: [
+//             '<span class="icon-left-arrow"></span>',
+//             '<span class="icon-right-arrow"></span>',
+//         ],
+//         responsive: {
+//             0: { items: 1 },
+//             800: { items: 1},
+//             1100: { items: 2},
+//             1500: { items: 2.5}
 
+//         }
+//     });
+// });
 
 
   //Service Style4 Carousel
@@ -1277,9 +1300,6 @@
       });
     });
   }
-
-
-
 
 
 
